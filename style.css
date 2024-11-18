@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff8e7; /* Light orange background */
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ff8800; /* Bright orange */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+header nav ul li button {
+    background-color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #ff8800;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header nav ul li button:hover {
+    background-color: #ffd4a6;
+}
+
+/* Promo Section */
+.promo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ffe0b3;
+    /* margin-top: 50px; */
+}
+
+.promo-content {
+    max-width: 50%;
+}
+
+.promo-content h1 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+    color: #ff6600;
+}
+
+.promo-content p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.promo-content .btn-join {
+    background-color: #ff8800;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.promo-content .btn-join:hover {
+    background-color: #ff6600;
+}
+
+.promo-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+
+.promo-section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ff8800;
+    color: white;
+    margin-top: 2rem;
+}
